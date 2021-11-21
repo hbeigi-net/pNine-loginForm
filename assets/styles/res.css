@@ -1,0 +1,18 @@
+@media (max-width : 768px) {
+    .left 
+    {
+        border-radius: 5px 5px 0 0 !important;
+        -webkit-border-radius: 5px 5px 0 0 !important;
+        -moz-border-radius: 5px 5px 0 0 !important;
+        -ms-border-radius: 5px 5px 0 0 !important;
+        -o-border-radius: 5px 5px 0 0 !important;
+}
+.right 
+{
+    border-radius: 0 0 5px 5px !important;
+    -webkit-border-radius: 0 0 5px 5px !important;
+    -moz-border-radius: 0 0 5px 5px !important;
+    -ms-border-radius: 0 0 5px 5px !important;
+    -o-border-radius: 0 0 5px 5px !important;
+}
+}

@@ -1,0 +1,62 @@
+@font-face {
+    font-family: mikhak;
+    src: url("../fonts/mikhak/Mikhak-VF-FD[wght\,KSHD\,DSTY].woff2");
+}
+
+body {
+    font-family: mikhak;
+}
+
+#main_container {
+    height: 100vh;
+    position: relative;
+    background: url("../images/back.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: all 300ms ease-in;
+    -webkit-transition: all 300ms ease-in;
+    -moz-transition: all 300ms ease-in;
+    -ms-transition: all 300ms ease-in;
+    -o-transition: all 300ms ease-in;
+}
+
+.custom-input {
+    padding: 5px 10px;
+    border: none;
+    border-bottom: 1px solid #6c6c6d !important;
+    width: 85%;
+    color: rgb(80, 79, 79);
+    height: 100% !important;
+    outline: none;
+    background-color: transparent;
+}
+
+.custom-input:focus {
+    outline: none;
+    border-bottom: 1px solid #0f0f0f !important;
+    color: rgb(0, 0, 0) !important;
+}
+
+.inp-group {
+    display: flex;
+    height: 40px;
+    align-items: center;
+    padding: .3rem;
+    position: relative;
+}
+
+.inp-group-text {
+    border-radius: 0 5px 5px 0;
+    -webkit-border-radius: 0 5px 5px 0;
+    -moz-border-radius: 0 5px 5px 0;
+    -ms-border-radius: 0 5px 5px 0;
+    -o-border-radius: 0 5px 5px 0;
+
+    width: 15%;
+
+}
+.text-custom
+{
+    color: rgb(80, 79, 79);
+    
+}
